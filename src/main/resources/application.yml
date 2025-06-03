@@ -1,0 +1,27 @@
+
+spring:
+  application:
+    name: fugue
+
+  data:
+    mongodb:
+      uri: mongodb+srv://kyo:16102006@clusteraws.grnaa84.mongodb.net/music-play-fugue?retryWrites=true&w=majority&appName=ClusterAWS
+      collation: en
+      
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
+cloudinary:
+  cloud-name: dsrlz8iph
+  api-key: 753352724768284
+  api-secret: mhvO4EStTMhZWuAAOeOodro1w7s
