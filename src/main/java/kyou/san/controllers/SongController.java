@@ -105,7 +105,7 @@ public class SongController {
     	return "redirect:/songs/home";  
     }
     
-    @GetMapping("/home")
+    @GetMapping("/")
     public String home(@RequestParam(value = "language", required = false) String language, Model model) {
         List<Song> songs;
         if (language != null && !language.isEmpty()) {
