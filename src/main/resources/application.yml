@@ -5,7 +5,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb+srv://kyo:16102006@clusteraws.grnaa84.mongodb.net/music-play-fugue?retryWrites=true&w=majority&ssl=true&appName=ClusterAWS
+      uri: mongodb+srv://kyo:16102006@clusteraws.grnaa84.mongodb.net/music-play-fugue?retryWrites=true&w=majority&appName=ClusterAWS
       collation: en
       
   servlet:
